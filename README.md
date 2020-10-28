@@ -1,7 +1,5 @@
 # tictactoewithAI
-Project for CIS.667.M001.FALL20.Intro to Artificial  Intelligence
 
-## Tic Tac Toe
 This application implements the board game TicTacToe with modifications to the classic 3x3 board with just 2 players.
 This app provides the users with the flexibility of deciding the size of the board and selects the player turns randomly instead of going in a particular order.
 
@@ -13,7 +11,7 @@ Use cd <file directory> to change the directory to where your file is stored.
 >Numpy Library 
 
 ## Installing Libraries(Use Python v3 or higher):
-sudo apt install python3-pip
+sudo apt install python3
 pip install numpy
 
 
