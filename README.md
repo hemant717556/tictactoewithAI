@@ -19,24 +19,24 @@ pip install numpy
 python tictactoe.py
 
 ## Demo:
-C:\Users\jaysh>cd C:\Users\jaysh\OneDrive\Desktop\Syracuse\AI\Project  'Enter the file directory after cd'
+(base) ➜  AI python tictactoe.py
 
 -------------------------------
       
-Do you want to play a game? (y/n) y    #Enter your input here
-y
-Enter a board size(Greater than 3):4    #Enter your preferred board size here 
+Do you want to play a game? (y/n) y
+Enter a board size(Greater than 2):4
 Here is the board.
-[[0. 0. 0. 0.]
- [0. 0. 0. 0.]
- [0. 0. 0. 0.]
- [0. 0. 0. 0.]]
+   0  1  2  3
+0 [0. 0. 0. 0.]
+1 [0. 0. 0. 0.]
+2 [0. 0. 0. 0.]
+3 [0. 0. 0. 0.]
+To place your position, indicate the row number and the column number with a space.(like 2 3)
 
-To place your position, indicate the row number and the column number with spaces.
 
+You are player 2
+What position do you want to place? 
 
-You are player 2    #Player selected at random
-What position do you want to place? 22    #Enter your preferred position here(Ranging from [0][0] to [size][size])
 
 -------------------------------
 ## Conclusion:
