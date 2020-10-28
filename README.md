@@ -24,9 +24,7 @@ python tictactoe.py
 C:\Users\jaysh>cd C:\Users\jaysh\OneDrive\Desktop\Syracuse\AI\Project  'Enter the file directory after cd'
 
 -------------------------------
-         TIC TAC TOE
--------------------------------
-
+      
 Do you want to play a game? (y/n) y    #Enter your input here
 y
 Enter a board size(Greater than 3):4    #Enter your preferred board size here 
@@ -42,6 +40,6 @@ To place your position, indicate the row number and the column number with space
 You are player 2    #Player selected at random
 What position do you want to place? 22    #Enter your preferred position here(Ranging from [0][0] to [size][size])
 
-
+-------------------------------
 ## Conclusion:
 Once the game is finished i.e. reached its result state, the user will be asked if they would like to play again or exit.
