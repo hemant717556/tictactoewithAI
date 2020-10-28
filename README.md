@@ -4,8 +4,8 @@ This application implements the board game TicTacToe for 3 players with modifica
 This application provides the users with the flexibility of deciding the size of the board and selects the player turns randomly instead of going in a particular order and the player's turn is randomized.
 
 ## Dependency
-> Python3
-> Numpy
+- Python3
+- Numpy
 
 
 ## How to Run
