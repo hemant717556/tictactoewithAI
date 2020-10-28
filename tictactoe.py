@@ -1,6 +1,6 @@
 import numpy as np
 import random
-import matplotlib.pyplot as plt
+
 
 def print_header():
     print("---------------------------------------------------------------------")
