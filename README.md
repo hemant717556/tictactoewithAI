@@ -10,7 +10,7 @@ This application provides the users with the flexibility of deciding the size of
 
 ## How to Run
 
-1.First, Install the python modules which are specified above.
-2.Run python tictactoe.py
-3.It will ask for the board size you want to play with.Board size should be greater than 3.Then the plaer's turn will come in a randomized order.It will ask for the position you want to choose.Position should be a valid one else the game will ask to enter the position again.Player has to enter the indexes of row and colum with a space in between.
-4.After the game is over,it will ask the user if he/she wants to play again.If not, it will exit.
+- First, Install the python modules which are specified above.
+- Run python tictactoe.py
+- It will ask for the board size you want to play with.Board size should be greater than 3.Then the plaer's turn will come in a randomized order.It will ask for the position you want to choose.Position should be a valid one else the game will ask to enter the position again.Player has to enter the indexes of row and colum with a space in between.
+- After the game is over,it will ask the user if he/she wants to play again.If not, it will exit.
