@@ -37,23 +37,16 @@ def uct(node,child):
     return uct
 
 def rollout(node,current_player):
-    if node.state.is_leaf(): return node.state.get_score()
-    else: 
-        result_1 = rollout(node.choose_child(current_player),1)
-        result_2 = rollout(node.choose_child(current_player),2)
-        result_3 = rollout(node.choose_child(current_player),3)
-    result=[]
-    result.append([result_1,result_2,result_3])
+    if node.state.is_leaf(): result = node.state.get_score()
+    else: result = rollout(node.choose_child(current_player),current_player)
     node.visit_count += 1
-    node.score_total_1 += result_1[0]
-    node.score_total_2 += result_2[1]
-    node.score_total_3 += result_3[2]
+    node.score_total_1 += result[0]
+    node.score_total_2 += result[1]
+    node.score_total_3 += result[2]
     node.score_estimate_1 = node.score_total_1 / node.visit_count
     node.score_estimate_2 = node.score_total_2 / node.visit_count
     node.score_estimate_3 = node.score_total_3 / node.visit_count
-
-    desired_child=get_max_child(result,current_player-1)
-    return result[desired_child]
+    return result
 
 '''def rollout(node,current_player):
     all_actions=node.children(current_player)#will give all actions as children//list of child states
@@ -97,7 +90,7 @@ def get_three_random_state(node):
         result.append((roll1[0]+roll2[0]+roll3[0])/3)
         result.append((roll1[1]+roll2[1]+roll3[1])/3)
         result.append((roll1[2]+roll2[2]+roll3[2])/3)
-        return result
+        return [1,1,1]#result
 
  
    
