@@ -14,6 +14,8 @@ This application provides the users with the flexibility of deciding the size of
 ## How to Run
 
 - First, Install the python modules which are specified above.
+- Download the zipped folder
+- Go to the directory
 - Run python final.py
 - It will ask you if you want to play(Yes or No)
 - Then you will have to enter a board size.And size should be between 4 to 8.
@@ -22,7 +24,7 @@ This application provides the users with the flexibility of deciding the size of
   Options:
 
   1.Human 	 2.Baseline AI 	 3.TreeBased AI 	 4.Treebased+ NN AI
-  Enter your choice of otions having a space in between(e.g. 1 2 3)
+  Enter your choice of options having a space in between(e.g. 1 2 3)
   
 - Enter 4 (i.e. Treebased + NN just for player 3).Our code is trained for player 3
 
