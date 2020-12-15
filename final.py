@@ -62,13 +62,7 @@ def play_game(board_size,player_type):
         net_file="model%d.pth"%board_size
 
         for player in players:
-            if(player_type[2]==4):
-                if(os.path.isfile(data_file)==False):
-                    print("generating data")
-                    td.helper_data(board_size)
-                if(os.path.isfile(net_file)==False):
-                    td.helper_data(board_size)
-
+    
             #user's turn
             if(player_type[player-1]==1):#user
                 
@@ -83,7 +77,7 @@ def play_game(board_size,player_type):
                 position = list(map_object)
                 state.place(player,position)    
                 print(state.board)
-                #print(input())
+                print(input("Press Enter to continue"))
             
             elif(player_type[player-1]==3):#TREEBASED AI
                 
