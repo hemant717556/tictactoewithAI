@@ -32,6 +32,8 @@ This application provides the users with the flexibility of deciding the size of
 
 - After Tree based AI and Tree based + NN,Please press Enter to go to next step
 
+- After the game ends,It will again ask if you want to play again.
+
 
 
 
