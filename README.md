@@ -6,16 +6,34 @@ This application provides the users with the flexibility of deciding the size of
 ## Dependency
 - Python3
 - Numpy
+- PyTorch
+- Matplotlib
+
 
 
 ## How to Run
 
 - First, Install the python modules which are specified above.
-- Run python tictactoe.py
-- Player  2 and 3 are the AI bots.Player 1 is the user
-- Player turn is randomized.So the user has to wait for Player 1's turn.
-- It will ask for the board size you want to play with.Board size should be greater than or equal to 3.It will ask for the position player wants to choose.
-- Position should be a valid one else the game will ask to enter the position again.Player has to enter the indexes of row and colum with a space in between.
-- After the game is over,it will ask the user if he/she wants to play again.If not, it will exit.
+- Run python final.py
+- It will ask you if you want to play(Yes or No)
+- Then you will have to enter a board size.And size should be between 4 to 8.
+- Then it will ask "What the player1, player2 and player3 should be??"
+
+  Options:
+
+  1.Human 	 2.Baseline AI 	 3.TreeBased AI 	 4.Treebased+ NN AI
+  Enter your choice of otions having a space in between(e.g. 1 2 3)
+  
+- Enter 4 (i.e. Treebased + NN just for player 3).Our code is trained for player 3
+
+- For user,You need to give indexes in "What position do you want to place?(please enter valid position with a space in between)" like 1 3
+
+- For Baseline AI,a random place will be choosen.
+
+- After Tree based AI and Tree based + NN,Please press Enter to go to next step
+
+
+
+
 
 
