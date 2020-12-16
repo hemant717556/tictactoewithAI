@@ -26,6 +26,8 @@ This application provides the users with the flexibility of deciding the size of
   1.Human 	 2.Baseline AI 	 3.TreeBased AI 	 4.Treebased+ NN AI
   Enter your choice of options having a space in between(e.g. 1 2 3)
   
+  1 2 3 means player1-Human player2-BaselineAi player3-TreeBased AI
+  
 - Enter 4 (i.e. Treebased + NN just for player 3).Our code is trained for player 3
 
 - For user,You need to give indexes in "What position do you want to place?(please enter valid position with a space in between)" like 1 3
