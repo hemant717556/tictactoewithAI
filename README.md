@@ -40,22 +40,3 @@ This application provides the users with the flexibility of deciding the size of
 
 
 
-## My Solution
-
-### Task 1
-- Created a new type called ReportingStructure, that has two properties: employee and numberOfReports. 
-- We need to find the number of employees those come under or report directly od indirectly to an employee.
-- We can treat this problem as counting the nodes under a pecific root node.
-- I am using DFS algorithm to count the number of reports under an employee.
-- I have created a new GET endpoint,which accepts an employee id and returns the fully populated JSON file with employees who reports to the given employee.
-- The values are computed on the fly and are not persisted.
-
-### Task 2
-- Created a new type, Compensation with fields: employee, salary, and effectiveDate.
-- Created a GET endpoint to get the compensation details of an employee.It accepts an employeeId.
-- Valid id check has been done.
-- Also created a POST endpoint to create the compensation object of a specific employee.
-- For POST,the request body only needs a valid employeeID,salary and effective date.
-- Compensation can only be created for the existing employees. 
-
-
