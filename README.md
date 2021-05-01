@@ -40,8 +40,13 @@ This application provides the users with the flexibility of deciding the size of
 
 
 
-### My Solution
+## My Solution
 
-## Task 1
-
+### Task 1
+- Created a new type called ReportingStructure, that has two properties: employee and numberOfReports. 
+- We need to find the number of employees those come under or report directly od indirectly to an employee.
+- We can treat this problem as counting the nodes under a pecific root node.
+- I am using DFS algorithm to count the number of reports under an employee.
+- I have created a new GET endpoint,which accepts an employee id and returns the fully populated JSON file with employees who reports to the given employee.
+- The values are computed on the fly and are not persisted.
 
