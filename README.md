@@ -38,5 +38,11 @@ This application provides the users with the flexibility of deciding the size of
 
 - After the game ends,It will again ask if you want to play again.
 
-
+            {
+          "employee":{   
+              "employeeId":"16a596ae-edd3-4847-99fe-c4518e82c86f"
+                     },
+           "salary":1000.50,
+            "effectiveDate":"04/20/2021"
+             }
 
